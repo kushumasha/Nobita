@@ -7,17 +7,17 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv(""))
+API_HASH = getenv("")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_NOBITA_DEFAULTERS_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","NobitaBhaskar")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","NOBITA_MUSIC_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME","")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = getenv("BOT_NAME","")
 # ---------------------------------------------------------
 
 
@@ -51,7 +51,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NOB1TA_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+WLTHgUAvkYVmNTg9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
